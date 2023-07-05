@@ -1,8 +1,16 @@
 import './App.css'
+import { About, Footer, Header, Skills, Testimonial, Work  } from './container';
 
 export const App = () => {
   return (
-    <h1>App</h1>
+    <div className='app'>
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
+    </div>
   )
 }
 
