@@ -22,9 +22,9 @@ const Work = () => {
   }, []);
   
 
-  // const handleWorkFilter = (item) => {
+  const handleWorkFilter = (item) => {
 
-  // }
+  }
 
   return (
     <>
