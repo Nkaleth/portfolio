@@ -1,0 +1,74 @@
+{
+  "hash": "3ec4d9af",
+  "browserHash": "56fc695c",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4a946c98",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "8340b336",
+      "needsInterop": true
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "1f518161",
+      "needsInterop": false
+    },
+    "@sanity/client": {
+      "src": "../../node_modules/@sanity/client/dist/index.browser.js",
+      "file": "@sanity_client.js",
+      "fileHash": "73c47b7e",
+      "needsInterop": false
+    },
+    "@sanity/image-url": {
+      "src": "../../node_modules/@sanity/image-url/lib/browser/image-url.umd.js",
+      "file": "@sanity_image-url.js",
+      "fileHash": "4b304300",
+      "needsInterop": true
+    },
+    "react-icons/bs": {
+      "src": "../../node_modules/react-icons/bs/index.esm.js",
+      "file": "react-icons_bs.js",
+      "fileHash": "65d64379",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.esm.js",
+      "file": "react-icons_fa.js",
+      "fileHash": "a06db4c0",
+      "needsInterop": false
+    },
+    "react-icons/ai": {
+      "src": "../../node_modules/react-icons/ai/index.esm.js",
+      "file": "react-icons_ai.js",
+      "fileHash": "58db58c9",
+      "needsInterop": false
+    },
+    "react-icons/hi": {
+      "src": "../../node_modules/react-icons/hi/index.esm.js",
+      "file": "react-icons_hi.js",
+      "fileHash": "77ae9358",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-YBZH4PDD": {
+      "file": "browser-YBZH4PDD.js"
+    },
+    "chunk-VJO7ZY2D": {
+      "file": "chunk-VJO7ZY2D.js"
+    },
+    "chunk-FLAVOKRJ": {
+      "file": "chunk-FLAVOKRJ.js"
+    },
+    "chunk-AC2VUBZ6": {
+      "file": "chunk-AC2VUBZ6.js"
+    }
+  }
+}
