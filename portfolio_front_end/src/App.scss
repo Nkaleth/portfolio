@@ -177,11 +177,22 @@
 }
 
 @media screen and (max-width: 500px) {
-  .app__navigation,
-  .app__social {
+  .app__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .app__navigation {
     display: none;
   }
+  .app__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+    div {
+      margin: 1rem;
+    }
+  }
   .copyright {
     padding: 2rem;
   }
