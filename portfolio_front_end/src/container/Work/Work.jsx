@@ -13,7 +13,7 @@ const Work = () => {
   const [filterWork, setFilterWork] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "works"]';
+    const query = '*[_type == "works"] | order(_createdAt desc)';
 
     client.fetch(query).then((data) => {
         setWorks(data);
@@ -38,10 +38,10 @@ const Work = () => {
 
   return (
     <>
-      <h2 className='head-text'>My creative <span>Portfolio</span> section</h2>
+      <h2 className='head-text'>My <span>Recent</span> Works</h2>
 
       <div className='app__work-filter' >
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['Web App', 'React JS', 'JavaScript', 'Full Stack', 'Bootstrap', 'API Data', 'Responsive Web Design', 'PostgreSQL', 'Ruby on Rails', 'Redux', 'All'].map((item, index) => (
           <div
           key={index}
           onClick={() => handleWorkFilter(item)}

@@ -19,8 +19,8 @@
   align-items: center;
 
   img {
-    width: 130px;
-    height: 30px;
+    width: 170px;
+    height: auto;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -58,7 +58,7 @@
       flex-direction: column;
 
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: bold;
 
       transition: all 0.3s ease-in-out;
 
