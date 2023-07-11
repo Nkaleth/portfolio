@@ -52,8 +52,8 @@
   align-items: flex-start;
 
   p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
     color: var(--black-color);
     font-family: var(--font-base);
   }
@@ -140,4 +140,6 @@
   @media screen and (max-width: 800px) {
     width: 100%;
   }
+
+  display: none;
 }
