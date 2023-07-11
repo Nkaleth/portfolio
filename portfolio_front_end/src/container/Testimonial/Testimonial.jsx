@@ -16,7 +16,7 @@ const Testimonial = () => {
   }
   
   useEffect(() => {
-    const query = '*[_type == "testimonials"]';
+    const query = '*[_type == "testimonials"] | order(_createdAt desc)';
     const brandsQuery = '*[_type == "brands"]';
 
     client.fetch(query).then((data) => {
