@@ -67,6 +67,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Here 😃](https://nilton-segura-portfolio.netlify.app/)
+- [Sanity Studio (To manage the data)](https://nsportfolio.sanity.studio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
