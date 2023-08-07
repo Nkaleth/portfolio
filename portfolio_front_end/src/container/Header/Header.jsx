@@ -35,6 +35,14 @@ const Header = () => {
           <div className='tag-cmp app__flex'>
           <p className='p-text'>Full Stack Developer | Seeking Remote Opportunities | Eager to Learn New Technologies</p>
           </div>
+
+          <a href="#contact me!">
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className='contact_button'>Contact Me!
+            </motion.button>
+          </a>
         </div>
       </motion.div>
 

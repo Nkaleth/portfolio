@@ -187,3 +187,45 @@
     margin: 2rem 0;
   }
 }
+
+.app__work-filter-item {
+    font-size: var(--font-base);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #18453b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+
+    &:hover {
+      background-color: var(--secondary-color);
+      color: #fff;
+    }
+
+    @media screen and (min-width: 2000px) {
+      padding: 1rem 2rem;
+      border-radius: 0.85rem;
+    }
+  }
+
+  .contact_button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+    color: var(--white-color);
+    outline: none;
+    margin: 2rem 0 0 0;
+    font-family: var(--font-base);
+    font-size: 1rem;
+    cursor: pointer;
+
+    @media screen and (max-width: 1200px) {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
