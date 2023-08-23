@@ -10,7 +10,9 @@ const [toggle, setToggle] = useState(false)
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.logo} alt="logo" />
+        <a href="#home">
+          <img src={images.logo} alt="logo" />
+        </a>
       </div>
       <ul className='app__navbar-links'>
         {['home', 'about', 'work', 'skills', 'testimonials', 'contact me!'].map((item) => (
