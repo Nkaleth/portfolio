@@ -13,7 +13,7 @@ const Work = () => {
   const [filterWork, setFilterWork] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "works"] | order(_createdAt desc)';
+    const query = '*[_type == "works" && !(_id in path("drafts.**"))] | order(_createdAt desc)';
 
     client.fetch(query).then((data) => {
         setWorks(data);
