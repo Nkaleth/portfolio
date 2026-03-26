@@ -33,7 +33,7 @@ const Header = () => {
             </div>
           </div>
           <div className='tag-cmp app__flex'>
-          <p className='p-text'>Full Stack Developer | Seeking Remote Opportunities | Eager to Learn New Technologies</p>
+          <p className='p-text'>Software Engineer | Full Stack | React | Ruby on Rails | TypeScript | Seeking Remote Opportunities</p>
           </div>
 
           <a href="#contact me!">
