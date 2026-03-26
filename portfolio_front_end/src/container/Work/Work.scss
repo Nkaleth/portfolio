@@ -1,6 +1,6 @@
 .app__works {
   flex: 1;
-  width : 100%;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -10,7 +10,6 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
   margin: 4rem 0 2rem;
 
   .app__work-filter-item {
@@ -36,7 +35,7 @@
 
   .item-active {
     background-color: var(--secondary-color);
-      color: #fff;
+    color: #fff;
   }
 }
 
@@ -44,10 +43,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch; 
 
   .app__work-item {
     width: 270px;
+    display: flex;
     flex-direction: column;
 
     margin: 2rem;
@@ -85,7 +85,7 @@
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    object-fit: fill;
+    object-fit: cover; 
   }
 
   @media screen and (min-width: 2000px) {
@@ -132,7 +132,10 @@
   padding: 0.5rem;
   width: 100%;
   position: relative;
+  flex: 1; 
+  display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 
   h4 {
     margin-top: 1rem;
@@ -145,5 +148,7 @@
     border-radius: 10px;
     background-color: #fff;
     top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
